@@ -3,9 +3,9 @@ Testing Git precommit hooks with Husky, Prettier and Stylelint
 
 1. Clone repo
 2. Run `npm install`
-3. change a markdown file, css or JS file in this repo
+3. change a markdown file, css or JS file in the `/src/` directory of this repo
 4. type `git add -A`
-5. type `commit -m "testing husky"`
+5. type `commit -m "testing"`
 
 It should run Prettier and Stylelint on the files and automatically prettify
 
