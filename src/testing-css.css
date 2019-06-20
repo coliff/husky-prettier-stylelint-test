@@ -6,11 +6,19 @@
   boxx-sizing: border-box;
 }
 body {
+  /* the property below has a typo which stylelint should flag in the precommit test */
   margin-leftt:auto;
-  margin-right: auto;
+  /* prettier should remove those extra spaces after the semi-colon */
+  margin-right:        auto;
   min-width: 9998px;
-  font-size: 16px;
+  /* prettier should add a space after the semi-colon */
+  font-size:16px;
 }
+
+
+
+
+
 
 h1,
 h2,
