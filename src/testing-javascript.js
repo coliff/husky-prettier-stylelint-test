@@ -2,12 +2,9 @@
 !(function(e) {
   var n = function(n) {
     var t = e.document.createElement("a");
-    return (t.href = n), t;
-  };
-  e.onerror = function(t, o, r, a) {
-    var i = n(o).hostname;
-    ga("send", {
-      hitType: "event",
+    return (t.href = n), t;  };
+  e.onerror = function(t, o, r, a) {var i = n(o).hostname;
+    ga("send", {      hitType: "event",
       eventCategory:
         (i == e.location.hostname || void 0 == i || "" == i
           ? ""
@@ -15,10 +12,8 @@
       eventAction: t,
       eventLabel: (o + " LINE: " + r + (a ? " COLUMN: " + a : "")).trim(),
       nonInteraction: 1
-    });
-  };
+    });  };
 })(window);
-
 // Track PDF & ZIP Downloads in Google Analytics
 window.onload = function() {
   var t = document.getElementsByTagName("a");

@@ -47,6 +47,7 @@
     "*.css": [
       "stylelint --fix",
       "git add"
-    ]
+    ],
+    "ignore": ["*.min.js, *.min.css"]
   }
 }
