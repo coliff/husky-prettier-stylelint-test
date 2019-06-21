@@ -1,5 +1,5 @@
 # testing-markdown
-## prettier should add linebreaks above and below this
+## prettier should add line-breaks above and below this
 * This is a test list with asterisks
 * This is a test list with asterisks
 * This is a test list with asterisks
