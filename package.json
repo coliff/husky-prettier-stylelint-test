@@ -12,8 +12,8 @@
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "del": "^4.1.1",
-    "gulp": "3.9.1",
-    "husky": "^2.4.1",
+    "gulp": "4.0.2",
+    "husky": "^2.5.0",
     "lint-staged": "^8.2.1",
     "prettier": "^1.18.2",
     "stylelint": "^10.1.0",
@@ -41,12 +41,16 @@
   },
   "lint-staged": {
     "linters": {
-      "*.{js,css,json,md}": [
+      "*.{js,css,scss,json,md,yml}": [
         "prettier --write",
         "git add"
       ],
-      "*.css": [
+      "*.{css,scss}": [
         "stylelint --fix",
+        "git add"
+      ],
+      "*.{js,jsx}": [
+        "eslint --fix",
         "git add"
       ]
     },
