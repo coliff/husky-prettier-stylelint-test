@@ -7,11 +7,6 @@
   "homepage": "https://github.com/coliff/husky-prettier-stylelint-test/",
   "author": "C.Oliff",
   "devDependencies": {
-    "@babel/register": "^7.4.4",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "del": "^4.1.1",
     "eslint": "6.0.0",
     "eslint-config-prettier": "5.0.0",
     "eslint-plugin-prettier": "3.1.0",
