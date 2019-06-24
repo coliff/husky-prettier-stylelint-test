@@ -4,23 +4,8 @@
     "node": true
   },
   "plugins": ["prettier"],
-  "extends": ["prettier"],
-  "parserOptions": {
-    "ecmaVersion": 8,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
+  "extends": ["airbnb", "prettier"],
   "rules": {
-    "curly": 2,
-    "dot-notation": 2,
-    "no-const-assign": 2,
-    "no-dupe-class-members": 2,
-    "no-else-return": 2,
-    "prefer-promise-reject-errors": 2,
-    "prettier/prettier": 2,
-    "sort-imports": 2,
     "sort-vars": 2,
     "strict": [2, "global"]
   }
