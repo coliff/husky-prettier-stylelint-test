@@ -1,7 +1,7 @@
 {
   "name": "husky-prettier-stylelint-test",
   "description": "husky-prettier-stylelint-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "private": true,
   "homepage": "https://github.com/coliff/husky-prettier-stylelint-test/",
