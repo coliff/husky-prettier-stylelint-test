@@ -7,8 +7,8 @@
   "homepage": "https://github.com/coliff/husky-prettier-stylelint-test/",
   "author": "C.Oliff",
   "devDependencies": {
-    "eslint": "6.0.0",
-    "eslint-config-prettier": "5.0.0",
+    "eslint": "6.0.1",
+    "eslint-config-prettier": "6.0.0",
     "eslint-plugin-prettier": "3.1.0",
     "gulp": "4.0.2",
     "husky": "^2.5.0",
